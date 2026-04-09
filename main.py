@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "API Running test"}
+    return {"message": "Ankita is running API test"}
 
 @app.get("/top-products")
 def get_data():
